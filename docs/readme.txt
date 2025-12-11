@@ -1,0 +1,1 @@
+Projecte d'exemple per A1-Pj1 DIW. Obre index.html en un navegador.

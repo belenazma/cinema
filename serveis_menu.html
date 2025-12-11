@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="utf-8">
+    <title>Preus d'entrades - Cinema</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preus d'entrades del cinema.">
+    <meta name="keywords" content="cine, entrades, preus, Tarragona">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">   
+</head>
+<body>
+    <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inici</a></li>
+                    <li><a href="serveis.html">Serveis</a></li>
+                    <li><a href="contacte.html">Contacte</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>   
+    <!--  area central de serveis. Conté aside i taula -->
+    <section class="serveis">
+    <!-- Aside lateral esquerre -->
+    <aside>
+        <h2>Serveis</h2>
+        <ul>
+            <li><a href="serveis.html">Entrades</a></li>
+            <li><a href="serveis_menu.html">Menús</a></li>
+        </ul>
+    </aside>
+
+    <!-- Contingut principal: TAULA D’ENTRADES -->
+    <section class="taula">
+
+            <h1>Preus de menús</h1>
+
+        <table>
+            <tr>
+                <th colspan="4">Preus de menús - Bar del cinema</th>
+            </tr>
+            <tr>
+                <th>Menú</th>
+                <th>Inclou</th>
+                <th>Mida / Opció</th>
+                <th>Preu</th>
+            </tr>
+
+            <!-- Menú Clàssic amb rowspan -->
+            <tr>
+                <td rowspan="2">Menú Clàssic</td>
+                <td rowspan="2">Crispetes + refresc</td>
+                <td>Mitjà</td>
+                <td>4,50 €</td>
+            </tr>
+            <tr>
+                <td>Gran</td>
+                <td>5,50 €</td>
+            </tr>
+
+            <!-- Menú Parella -->
+            <tr>
+                <td>Menú Parella</td>
+                <td colspan="2">Crispetes grans + 2 refrescs</td>
+                <td>7,90 €</td>
+            </tr>
+
+            <!-- Menú Familiar -->
+            <tr>
+                <td>Menú Familiar</td>
+                <td colspan="2">Crispetes XXL + 4 refrescs</td>
+                <td>12,50 €</td>
+            </tr>
+
+            <!-- Menú Dolç amb rowspan a la descripció -->
+            <tr>
+                <td rowspan="2">Menú Dolç</td>
+                <td rowspan="2">Llaminadures + refresc</td>
+                <td>Petit</td>
+                <td>4,20 €</td>
+            </tr>
+            <tr>
+                <td>Gran</td>
+                <td>5,20 €</td>
+            </tr>
+        </table>
+        </section>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2025. Cinema DAM.</p>
+</footer>
+</body>
+</html>
